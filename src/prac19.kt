@@ -1,25 +1,12 @@
 fun main() {
-
-    val numbers = ArrayList<Int>()
-
-    print("Enter the number of elements: ")
-    val n = readln().toInt()
-
-    println("Enter $n elements:")
-
-    for (i in 0 until n) {
-        print("Element ${i + 1}: ")
-        numbers.add(readln().toInt())
-    }
-
-    var max = numbers[0]
-
-    for (i in 1 until numbers.size) {
-        if (numbers[i] > max) {
-            max = numbers[i]
+    val a4 = arrayOf(1, 2, 3, 4, 5, 6, 7, 8)
+    println(a4.max())
+    var max=a4[0]
+    for (i in a4) {
+        if(i > max){
+            max=i
         }
-    }
 
-    println("\nArrayList = $numbers")
-    println("Maximum Number = $max")
+    }
+    println(max)
 }
