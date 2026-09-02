@@ -1,30 +1,23 @@
-fun main()
-{
-    var i=10
-    println("i=" +i)
-    var j:Int
-    j=20
-    val k=200
+fun main(){
+    val j: Int = 22
+    val f: Float = 22.5f
+    val c: Char = 'T'
+    val s: String = "Preet"
+    val b: Boolean = true
+    val d: Double = 3.14
+    val l: Long = 24012011123
+    val sh: Short = -2
+    val by: Byte = 127
 
+    println("Integer Value: $j")
+    println("Float Value: $f")
+    println("Character Value: $c")
+    println("String Value: $s")
+    println("Boolean Value: $b")
+    println("Double Value: $d")
+    println("Long Value: $l")
+    println("Short Value: $sh")
+    println("Byte Value: $by")
 
-    println("k=" +k)
-    println("j=" +j)
-    var l: Double
-    l=1.5
-    println("l=" +l)
-    var ch: Char = 'A'
-    println("ch=" +ch)
-    var p= "hello world"
-    println("message=" +p)
-    var q : Boolean
-    q= false
-    println("q=" +q)
-    var num: Long = 1234567890123
-    println("num=" +num)
-    var number: Short = 25
-    println("num=" +number)
-    var a=10
-    println("a=$a")
-    print(a)
-    
+    println("Sum of all:${j+f}")
 }
