@@ -1,11 +1,11 @@
-// Parent Class
+
 open class Product(
     var productName: String,
     var quantity: Int,
     var amountPerQuantity: Double
 ) {
 
-    // Secondary Constructor
+
     constructor() : this("Unknown", 0, 0.0)
 
     open fun displayProduct() {
@@ -15,7 +15,7 @@ open class Product(
     }
 }
 
-// Child Class
+
 class Laptop(
     productName: String,
     quantity: Int,
@@ -25,7 +25,7 @@ class Laptop(
     var hdd: String
 ) : Product(productName, quantity, amountPerQuantity) {
 
-    // Secondary Constructor
+
     constructor() : this(
         "Unknown",
         0,

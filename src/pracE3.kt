@@ -1,11 +1,11 @@
-// Parent Class
+
 open class Person(
     var firstName: String,
     var lastName: String,
     var age: Int
 ) {
 
-    // Secondary Constructor
+
     constructor() : this("Unknown", "Unknown", 0)
 
     open fun displayPerson() {
@@ -15,7 +15,7 @@ open class Person(
     }
 }
 
-// Child Class
+
 class Student(
     firstName: String,
     lastName: String,

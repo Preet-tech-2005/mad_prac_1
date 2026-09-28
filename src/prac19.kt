@@ -8,5 +8,6 @@ fun main() {
         }
 
     }
-    println(max)
+    println("Max is $max")
+
 }
