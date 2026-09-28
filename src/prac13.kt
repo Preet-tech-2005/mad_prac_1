@@ -1,9 +1,5 @@
 fun main(){
-//    val s1: String? = "23"
-//    val i: Int = s1!!.toInt()
-//    println(i)
-//    val s2 = readln().toInt()
-//    println(s2)
+
     println("Enter Enrollment Number:")
     val eno = readln()
     println("Enter Name:")

@@ -1,5 +1,6 @@
 fun main()
 {
+    println("Enter the month no")
     val number=readln().toInt()
     println(
         when(number){
