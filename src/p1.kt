@@ -5,7 +5,7 @@ fun main(){
     val s: String = "Preet"
     val b: Boolean = true
     val d: Double = 3.14
-    val l: Long = 24012011123
+    val l: Long = 24012011119
     val sh: Short = -2
     val by: Byte = 127
 
